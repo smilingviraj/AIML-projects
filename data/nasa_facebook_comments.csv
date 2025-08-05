@@ -1,0 +1,501 @@
+Date,LikesCount,ProfileName,CommentsCount,Text,Sentiment
+2020-01-02 00:00:00,22,User_126,5,What factors are included in this climate analysis?,neutral
+2020-01-03 00:00:00,31,User_119,8,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2020-01-07 00:00:00,29,User_129,4,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2020-01-11 00:00:00,17,User_005,1,Can this climate data be used for local planning decisions?,neutral
+2020-01-13 00:00:00,13,User_037,2,What's the timeframe for these climate predictions?,neutral
+2020-01-16 00:00:00,16,User_078,3,This climate data visualization is incredibly helpful for understanding trends.,positive
+2020-01-17 00:00:00,23,User_156,0,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2020-01-20 00:00:00,12,User_022,2,I don't believe this climate data. NASA is pushing an agenda.,negative
+2020-01-25 00:00:00,28,User_136,0,Thank you for making climate science accessible to the public. Great work!,positive
+2020-01-31 00:00:00,15,User_193,1,Why is NASA involved in climate activism? Stick to rockets!,negative
+2020-01-31 00:00:00,19,User_061,5,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2020-02-01 00:00:00,6,User_049,3,This climate data is manipulated to support political narratives.,negative
+2020-02-03 00:00:00,23,User_018,5,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2020-02-03 00:00:00,19,User_142,4,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2020-02-05 00:00:00,12,User_179,8,What factors are included in this climate analysis?,neutral
+2020-02-08 00:00:00,28,User_020,7,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2020-02-10 00:00:00,19,User_123,6,How often is this climate dataset updated?,neutral
+2020-02-12 00:00:00,17,User_148,4,How often is this climate dataset updated?,neutral
+2020-02-14 00:00:00,13,User_066,6,Stop the climate alarmism! Focus on real space missions instead.,negative
+2020-02-16 00:00:00,20,User_119,4,Interesting climate data. Would like to see more analysis on regional variations.,neutral
+2020-02-17 00:00:00,9,User_101,1,Stop the climate alarmism! Focus on real space missions instead.,negative
+2020-02-23 00:00:00,3,User_128,2,Climate has always changed naturally. This is not human-caused.,negative
+2020-02-24 00:00:00,22,User_014,6,What's the timeframe for these climate predictions?,neutral
+2020-02-26 00:00:00,7,User_067,1,Why is NASA involved in climate activism? Stick to rockets!,negative
+2020-02-29 00:00:00,30,User_087,6,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2020-03-03 00:00:00,12,User_161,7,This climate fear mongering needs to stop. Focus on actual science.,negative
+2020-03-12 00:00:00,29,User_018,2,This climate data visualization is incredibly helpful for understanding trends.,positive
+2020-03-14 00:00:00,32,User_150,5,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2020-03-17 00:00:00,22,User_077,0,Would be helpful to see uncertainty ranges in this climate projection.,neutral
+2020-03-18 00:00:00,29,User_095,0,NASA continues to lead in climate research. This data is eye-opening!,positive
+2020-03-20 00:00:00,27,User_057,7,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2020-03-21 00:00:00,34,User_049,1,This climate data visualization is incredibly helpful for understanding trends.,positive
+2020-03-22 00:00:00,11,User_189,6,This climate change stuff is just fear mongering. Not buying it.,negative
+2020-03-25 00:00:00,14,User_147,7,Why is NASA involved in climate activism? Stick to rockets!,negative
+2020-03-26 00:00:00,4,User_094,4,"NASA should stick to space, not climate politics.",negative
+2020-03-27 00:00:00,9,User_158,5,This climate data is manipulated to support political narratives.,negative
+2020-04-02 00:00:00,26,User_014,6,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2020-04-07 00:00:00,7,User_070,5,Stop the climate alarmism! Focus on real space missions instead.,negative
+2020-04-12 00:00:00,15,User_064,8,What factors are included in this climate analysis?,neutral
+2020-04-13 00:00:00,3,User_099,4,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2020-04-17 00:00:00,34,User_017,5,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2020-04-20 00:00:00,15,User_016,1,Climate change is a hoax. NASA knows better than this.,negative
+2020-04-21 00:00:00,2,User_075,8,Stop the climate alarmism! Focus on real space missions instead.,negative
+2020-04-23 00:00:00,16,User_133,1,How accurate have previous NASA climate models been?,neutral
+2020-04-25 00:00:00,33,User_130,5,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2020-04-27 00:00:00,18,User_172,1,Would be helpful to see uncertainty ranges in this climate projection.,neutral
+2020-04-30 00:00:00,35,User_009,8,Thank you for making climate science accessible to the public. Great work!,positive
+2020-05-02 00:00:00,16,User_144,8,What are the implications of this climate data for coastal cities?,neutral
+2020-05-03 00:00:00,32,User_121,1,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2020-05-08 00:00:00,29,User_128,1,This climate data visualization is incredibly helpful for understanding trends.,positive
+2020-05-09 00:00:00,18,User_180,7,How does this climate trend compare to historical patterns?,neutral
+2020-05-10 00:00:00,9,User_115,7,What factors are included in this climate analysis?,neutral
+2020-05-20 00:00:00,7,User_095,3,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2020-05-25 00:00:00,25,User_061,8,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2020-05-26 00:00:00,35,User_137,2,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2020-05-29 00:00:00,17,User_109,0,How does this climate trend compare to historical patterns?,neutral
+2020-05-30 00:00:00,3,User_055,8,This climate fear mongering needs to stop. Focus on actual science.,negative
+2020-06-06 00:00:00,22,User_042,4,How accurate have previous NASA climate models been?,neutral
+2020-06-10 00:00:00,8,User_076,8,This climate change stuff is just fear mongering. Not buying it.,negative
+2020-06-12 00:00:00,24,User_026,3,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2020-06-18 00:00:00,12,User_021,6,What factors are included in this climate analysis?,neutral
+2020-06-20 00:00:00,12,User_070,2,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2020-06-22 00:00:00,27,User_063,8,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2020-06-23 00:00:00,24,User_031,3,This climate data visualization is incredibly helpful for understanding trends.,positive
+2020-06-27 00:00:00,32,User_009,6,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2020-06-27 00:00:00,10,User_111,2,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2020-07-03 00:00:00,18,User_099,8,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2020-07-04 00:00:00,22,User_026,6,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2020-07-06 00:00:00,15,User_173,3,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2020-07-09 00:00:00,8,User_030,3,Why is NASA involved in climate activism? Stick to rockets!,negative
+2020-07-13 00:00:00,14,User_110,5,How accurate have previous NASA climate models been?,neutral
+2020-07-16 00:00:00,3,User_039,8,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2020-07-17 00:00:00,9,User_091,6,How does this climate trend compare to historical patterns?,neutral
+2020-07-18 00:00:00,18,User_138,3,NASA continues to lead in climate research. This data is eye-opening!,positive
+2020-07-22 00:00:00,11,User_161,3,I don't believe this climate data. NASA is pushing an agenda.,negative
+2020-07-24 00:00:00,30,User_002,2,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2020-07-28 00:00:00,25,User_098,1,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2020-08-05 00:00:00,22,User_164,4,What factors are included in this climate analysis?,neutral
+2020-08-10 00:00:00,16,User_089,6,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2020-08-11 00:00:00,14,User_050,3,This climate data is manipulated to support political narratives.,negative
+2020-08-11 00:00:00,17,User_129,7,What factors are included in this climate analysis?,neutral
+2020-08-21 00:00:00,35,User_131,8,Thank you for making climate science accessible to the public. Great work!,positive
+2020-08-26 00:00:00,29,User_184,3,Thank you for making climate science accessible to the public. Great work!,positive
+2020-08-28 00:00:00,13,User_095,4,Stop the climate alarmism! Focus on real space missions instead.,negative
+2020-09-02 00:00:00,27,User_149,3,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2020-09-06 00:00:00,12,User_098,8,Would be helpful to see uncertainty ranges in this climate projection.,neutral
+2020-09-13 00:00:00,23,User_158,4,Thank you for making climate science accessible to the public. Great work!,positive
+2020-09-15 00:00:00,17,User_160,4,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2020-09-17 00:00:00,10,User_108,3,Stop the climate alarmism! Focus on real space missions instead.,negative
+2020-09-24 00:00:00,27,User_132,5,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2020-09-30 00:00:00,15,User_171,7,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2020-10-01 00:00:00,8,User_187,4,This climate change stuff is just fear mongering. Not buying it.,negative
+2020-10-02 00:00:00,22,User_030,4,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2020-10-03 00:00:00,14,User_184,1,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2020-10-04 00:00:00,20,User_096,6,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2020-10-11 00:00:00,5,User_127,3,This climate change stuff is just fear mongering. Not buying it.,negative
+2020-10-13 00:00:00,18,User_010,0,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2020-10-13 00:00:00,10,User_157,5,This climate fear mongering needs to stop. Focus on actual science.,negative
+2020-10-13 00:00:00,20,User_126,8,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2020-10-17 00:00:00,3,User_024,0,"NASA should stick to space, not climate politics.",negative
+2020-10-21 00:00:00,11,User_184,5,This climate data is manipulated to support political narratives.,negative
+2020-10-25 00:00:00,30,User_043,1,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2020-10-29 00:00:00,25,User_071,0,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2020-11-01 00:00:00,35,User_037,4,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2020-11-01 00:00:00,28,User_097,4,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2020-11-03 00:00:00,21,User_021,5,How often is this climate dataset updated?,neutral
+2020-11-04 00:00:00,10,User_099,3,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2020-11-06 00:00:00,28,User_177,6,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2020-11-08 00:00:00,26,User_018,7,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2020-11-11 00:00:00,12,User_184,7,This climate change stuff is just fear mongering. Not buying it.,negative
+2020-11-11 00:00:00,8,User_047,2,This climate fear mongering needs to stop. Focus on actual science.,negative
+2020-11-11 00:00:00,35,User_082,6,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2020-11-18 00:00:00,15,User_093,2,Stop the climate alarmism! Focus on real space missions instead.,negative
+2020-11-22 00:00:00,20,User_132,7,How does this climate trend compare to historical patterns?,neutral
+2020-11-23 00:00:00,11,User_148,5,How accurate have previous NASA climate models been?,neutral
+2020-11-28 00:00:00,21,User_106,2,How does this climate trend compare to historical patterns?,neutral
+2020-11-28 00:00:00,25,User_166,7,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2020-12-01 00:00:00,14,User_028,4,This climate change stuff is just fear mongering. Not buying it.,negative
+2020-12-02 00:00:00,15,User_124,4,Stop the climate alarmism! Focus on real space missions instead.,negative
+2020-12-04 00:00:00,13,User_033,7,"NASA should stick to space, not climate politics.",negative
+2020-12-05 00:00:00,20,User_012,7,How often is this climate dataset updated?,neutral
+2020-12-06 00:00:00,15,User_008,4,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2020-12-11 00:00:00,12,User_044,2,Why is NASA involved in climate activism? Stick to rockets!,negative
+2020-12-19 00:00:00,29,User_023,7,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2020-12-21 00:00:00,21,User_195,2,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2020-12-22 00:00:00,12,User_104,4,"NASA should stick to space, not climate politics.",negative
+2020-12-24 00:00:00,35,User_179,7,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2020-12-24 00:00:00,33,User_143,6,Thank you for making climate science accessible to the public. Great work!,positive
+2020-12-25 00:00:00,28,User_098,2,NASA continues to lead in climate research. This data is eye-opening!,positive
+2021-01-04 00:00:00,2,User_180,4,Stop the climate alarmism! Focus on real space missions instead.,negative
+2021-01-15 00:00:00,21,User_153,1,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2021-01-15 00:00:00,8,User_022,6,"NASA should stick to space, not climate politics.",negative
+2021-01-21 00:00:00,7,User_147,3,Climate change is a hoax. NASA knows better than this.,negative
+2021-01-25 00:00:00,8,User_192,8,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2021-01-25 00:00:00,16,User_069,0,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2021-01-29 00:00:00,18,User_031,5,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2021-02-01 00:00:00,22,User_174,5,Can this climate data be used for local planning decisions?,neutral
+2021-02-12 00:00:00,15,User_065,2,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2021-02-26 00:00:00,11,User_026,1,Interesting climate data. Would like to see more analysis on regional variations.,neutral
+2021-02-27 00:00:00,2,User_100,6,"NASA should stick to space, not climate politics.",negative
+2021-02-28 00:00:00,8,User_193,2,What's the timeframe for these climate predictions?,neutral
+2021-03-19 00:00:00,11,User_071,7,What are the implications of this climate data for coastal cities?,neutral
+2021-03-27 00:00:00,28,User_151,7,Thank you for making climate science accessible to the public. Great work!,positive
+2021-03-28 00:00:00,31,User_077,6,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2021-03-29 00:00:00,12,User_178,6,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2021-03-29 00:00:00,25,User_200,5,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2021-04-07 00:00:00,20,User_143,6,What are the implications of this climate data for coastal cities?,neutral
+2021-04-11 00:00:00,17,User_150,0,How often is this climate dataset updated?,neutral
+2021-04-12 00:00:00,15,User_087,6,How accurate have previous NASA climate models been?,neutral
+2021-04-16 00:00:00,20,User_057,5,Would be helpful to see uncertainty ranges in this climate projection.,neutral
+2021-04-18 00:00:00,35,User_182,1,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2021-04-24 00:00:00,15,User_056,8,How accurate have previous NASA climate models been?,neutral
+2021-05-05 00:00:00,24,User_062,0,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2021-05-05 00:00:00,8,User_083,8,Climate has always changed naturally. This is not human-caused.,negative
+2021-05-06 00:00:00,20,User_142,2,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2021-05-08 00:00:00,30,User_077,3,Thank you for making climate science accessible to the public. Great work!,positive
+2021-05-09 00:00:00,17,User_126,6,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2021-05-16 00:00:00,9,User_077,6,Stop the climate alarmism! Focus on real space missions instead.,negative
+2021-05-19 00:00:00,20,User_022,1,Would be helpful to see uncertainty ranges in this climate projection.,neutral
+2021-05-21 00:00:00,15,User_006,3,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2021-05-21 00:00:00,20,User_135,1,How does this climate trend compare to historical patterns?,neutral
+2021-05-23 00:00:00,13,User_067,0,Can this climate data be used for local planning decisions?,neutral
+2021-05-31 00:00:00,31,User_069,5,This climate data visualization is incredibly helpful for understanding trends.,positive
+2021-06-02 00:00:00,15,User_193,0,What factors are included in this climate analysis?,neutral
+2021-06-05 00:00:00,21,User_182,0,This climate data visualization is incredibly helpful for understanding trends.,positive
+2021-06-07 00:00:00,20,User_084,4,What are the implications of this climate data for coastal cities?,neutral
+2021-06-08 00:00:00,19,User_043,5,Can this climate data be used for local planning decisions?,neutral
+2021-06-14 00:00:00,15,User_164,3,Can this climate data be used for local planning decisions?,neutral
+2021-06-20 00:00:00,3,User_181,4,Why is NASA involved in climate activism? Stick to rockets!,negative
+2021-06-25 00:00:00,34,User_187,0,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2021-06-25 00:00:00,15,User_032,8,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2021-06-26 00:00:00,4,User_064,2,Climate change is a hoax. NASA knows better than this.,negative
+2021-06-27 00:00:00,4,User_033,0,I don't believe this climate data. NASA is pushing an agenda.,negative
+2021-06-30 00:00:00,5,User_034,8,I don't believe this climate data. NASA is pushing an agenda.,negative
+2021-07-02 00:00:00,14,User_055,1,What's the timeframe for these climate predictions?,neutral
+2021-07-07 00:00:00,35,User_199,8,Thank you for making climate science accessible to the public. Great work!,positive
+2021-07-10 00:00:00,5,User_082,5,Stop the climate alarmism! Focus on real space missions instead.,negative
+2021-07-11 00:00:00,10,User_155,4,What factors are included in this climate analysis?,neutral
+2021-07-11 00:00:00,27,User_139,8,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2021-07-17 00:00:00,13,User_058,3,I don't believe this climate data. NASA is pushing an agenda.,negative
+2021-07-18 00:00:00,19,User_186,3,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2021-07-26 00:00:00,32,User_033,1,NASA continues to lead in climate research. This data is eye-opening!,positive
+2021-07-28 00:00:00,14,User_094,6,What's the timeframe for these climate predictions?,neutral
+2021-07-31 00:00:00,15,User_129,6,Can this climate data be used for local planning decisions?,neutral
+2021-08-02 00:00:00,17,User_050,1,What factors are included in this climate analysis?,neutral
+2021-08-04 00:00:00,27,User_186,4,Thank you for making climate science accessible to the public. Great work!,positive
+2021-08-04 00:00:00,22,User_065,1,What factors are included in this climate analysis?,neutral
+2021-08-05 00:00:00,7,User_165,7,This climate change stuff is just fear mongering. Not buying it.,negative
+2021-08-07 00:00:00,7,User_197,0,Stop the climate alarmism! Focus on real space missions instead.,negative
+2021-08-10 00:00:00,6,User_111,3,I don't believe this climate data. NASA is pushing an agenda.,negative
+2021-08-12 00:00:00,29,User_041,8,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2021-08-19 00:00:00,25,User_148,7,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2021-08-23 00:00:00,8,User_012,3,Can this climate data be used for local planning decisions?,neutral
+2021-08-24 00:00:00,10,User_027,5,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2021-08-27 00:00:00,17,User_192,5,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2021-08-28 00:00:00,9,User_130,1,What are the implications of this climate data for coastal cities?,neutral
+2021-08-28 00:00:00,9,User_022,6,Can this climate data be used for local planning decisions?,neutral
+2021-08-30 00:00:00,11,User_015,3,What are the implications of this climate data for coastal cities?,neutral
+2021-08-31 00:00:00,9,User_079,6,Climate change is a hoax. NASA knows better than this.,negative
+2021-09-01 00:00:00,22,User_181,4,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2021-09-03 00:00:00,24,User_039,7,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2021-09-04 00:00:00,33,User_177,6,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2021-09-04 00:00:00,34,User_130,5,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2021-09-08 00:00:00,22,User_013,1,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2021-09-11 00:00:00,20,User_182,0,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2021-09-17 00:00:00,26,User_058,3,NASA continues to lead in climate research. This data is eye-opening!,positive
+2021-09-20 00:00:00,29,User_104,2,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2021-09-23 00:00:00,15,User_093,7,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2021-09-25 00:00:00,17,User_184,6,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2021-09-27 00:00:00,18,User_051,3,How does this climate trend compare to historical patterns?,neutral
+2021-09-27 00:00:00,7,User_034,6,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2021-09-27 00:00:00,13,User_102,8,Interesting climate data. Would like to see more analysis on regional variations.,neutral
+2021-09-30 00:00:00,19,User_172,6,How does this climate trend compare to historical patterns?,neutral
+2021-10-01 00:00:00,34,User_027,5,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2021-10-04 00:00:00,2,User_013,0,Why is NASA involved in climate activism? Stick to rockets!,negative
+2021-10-04 00:00:00,11,User_185,1,This climate data is manipulated to support political narratives.,negative
+2021-10-05 00:00:00,18,User_068,3,How does this climate trend compare to historical patterns?,neutral
+2021-10-06 00:00:00,22,User_168,3,How often is this climate dataset updated?,neutral
+2021-10-06 00:00:00,3,User_083,4,Climate change is a hoax. NASA knows better than this.,negative
+2021-10-09 00:00:00,29,User_003,1,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2021-10-11 00:00:00,11,User_157,7,Why is NASA involved in climate activism? Stick to rockets!,negative
+2021-10-13 00:00:00,16,User_181,7,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2021-10-18 00:00:00,12,User_123,3,What are the implications of this climate data for coastal cities?,neutral
+2021-10-19 00:00:00,7,User_042,1,"NASA should stick to space, not climate politics.",negative
+2021-10-21 00:00:00,18,User_114,7,How often is this climate dataset updated?,neutral
+2021-10-22 00:00:00,20,User_089,3,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2021-10-26 00:00:00,12,User_059,0,Climate has always changed naturally. This is not human-caused.,negative
+2021-10-27 00:00:00,13,User_153,6,Why is NASA involved in climate activism? Stick to rockets!,negative
+2021-10-27 00:00:00,32,User_135,7,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2021-11-03 00:00:00,27,User_018,4,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2021-11-06 00:00:00,23,User_150,4,NASA continues to lead in climate research. This data is eye-opening!,positive
+2021-11-09 00:00:00,12,User_136,1,"NASA should stick to space, not climate politics.",negative
+2021-11-10 00:00:00,20,User_028,6,How accurate have previous NASA climate models been?,neutral
+2021-11-11 00:00:00,7,User_196,8,Climate change is a hoax. NASA knows better than this.,negative
+2021-11-11 00:00:00,33,User_012,2,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2021-11-13 00:00:00,19,User_133,7,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2021-11-14 00:00:00,2,User_033,3,I don't believe this climate data. NASA is pushing an agenda.,negative
+2021-11-16 00:00:00,29,User_167,6,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2021-11-21 00:00:00,15,User_146,4,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2021-11-24 00:00:00,19,User_120,1,Would be helpful to see uncertainty ranges in this climate projection.,neutral
+2021-11-25 00:00:00,13,User_094,8,How accurate have previous NASA climate models been?,neutral
+2021-11-28 00:00:00,17,User_199,6,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2021-12-04 00:00:00,9,User_130,1,Can this climate data be used for local planning decisions?,neutral
+2021-12-07 00:00:00,18,User_029,6,Thank you for making climate science accessible to the public. Great work!,positive
+2021-12-07 00:00:00,21,User_075,2,How accurate have previous NASA climate models been?,neutral
+2021-12-12 00:00:00,18,User_141,1,What's the timeframe for these climate predictions?,neutral
+2021-12-17 00:00:00,2,User_167,3,Why is NASA involved in climate activism? Stick to rockets!,negative
+2021-12-21 00:00:00,25,User_070,7,Thank you for making climate science accessible to the public. Great work!,positive
+2021-12-25 00:00:00,28,User_185,6,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2022-01-02 00:00:00,22,User_175,3,Interesting climate data. Would like to see more analysis on regional variations.,neutral
+2022-01-04 00:00:00,24,User_111,5,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2022-01-10 00:00:00,22,User_181,3,How often is this climate dataset updated?,neutral
+2022-01-10 00:00:00,10,User_161,7,Climate has always changed naturally. This is not human-caused.,negative
+2022-01-11 00:00:00,10,User_093,0,"NASA should stick to space, not climate politics.",negative
+2022-01-12 00:00:00,15,User_176,1,Climate has always changed naturally. This is not human-caused.,negative
+2022-01-15 00:00:00,4,User_073,5,This climate fear mongering needs to stop. Focus on actual science.,negative
+2022-01-17 00:00:00,35,User_095,2,NASA continues to lead in climate research. This data is eye-opening!,positive
+2022-01-21 00:00:00,31,User_081,6,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2022-01-25 00:00:00,33,User_142,7,Thank you for making climate science accessible to the public. Great work!,positive
+2022-01-29 00:00:00,5,User_106,5,This climate data is manipulated to support political narratives.,negative
+2022-01-31 00:00:00,26,User_196,7,NASA continues to lead in climate research. This data is eye-opening!,positive
+2022-02-04 00:00:00,4,User_139,2,Climate has always changed naturally. This is not human-caused.,negative
+2022-02-12 00:00:00,15,User_021,6,How accurate have previous NASA climate models been?,neutral
+2022-02-15 00:00:00,10,User_100,0,Interesting climate data. Would like to see more analysis on regional variations.,neutral
+2022-02-15 00:00:00,12,User_008,5,This climate fear mongering needs to stop. Focus on actual science.,negative
+2022-02-16 00:00:00,15,User_164,4,What are the implications of this climate data for coastal cities?,neutral
+2022-02-17 00:00:00,32,User_161,5,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2022-02-18 00:00:00,12,User_036,2,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2022-02-19 00:00:00,11,User_028,5,Stop the climate alarmism! Focus on real space missions instead.,negative
+2022-02-20 00:00:00,8,User_136,7,This climate change stuff is just fear mongering. Not buying it.,negative
+2022-02-23 00:00:00,26,User_155,0,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2022-02-26 00:00:00,21,User_028,7,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2022-03-01 00:00:00,22,User_096,1,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2022-03-07 00:00:00,15,User_085,8,This climate fear mongering needs to stop. Focus on actual science.,negative
+2022-03-09 00:00:00,24,User_138,6,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2022-03-17 00:00:00,8,User_022,0,What factors are included in this climate analysis?,neutral
+2022-03-21 00:00:00,15,User_159,5,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2022-03-24 00:00:00,2,User_048,7,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2022-03-26 00:00:00,16,User_049,4,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2022-03-30 00:00:00,28,User_099,7,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2022-04-09 00:00:00,3,User_084,0,Stop the climate alarmism! Focus on real space missions instead.,negative
+2022-04-10 00:00:00,9,User_097,6,Interesting climate data. Would like to see more analysis on regional variations.,neutral
+2022-04-11 00:00:00,13,User_145,7,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2022-04-15 00:00:00,10,User_007,1,Why is NASA involved in climate activism? Stick to rockets!,negative
+2022-04-17 00:00:00,21,User_036,7,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2022-04-18 00:00:00,14,User_033,1,What factors are included in this climate analysis?,neutral
+2022-04-29 00:00:00,3,User_085,6,Climate has always changed naturally. This is not human-caused.,negative
+2022-04-29 00:00:00,12,User_130,5,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2022-05-01 00:00:00,13,User_121,8,How often is this climate dataset updated?,neutral
+2022-05-05 00:00:00,19,User_040,4,How often is this climate dataset updated?,neutral
+2022-05-08 00:00:00,3,User_081,8,This climate fear mongering needs to stop. Focus on actual science.,negative
+2022-05-09 00:00:00,14,User_088,7,How does this climate trend compare to historical patterns?,neutral
+2022-05-10 00:00:00,2,User_028,7,This climate data is manipulated to support political narratives.,negative
+2022-05-13 00:00:00,12,User_021,4,How accurate have previous NASA climate models been?,neutral
+2022-05-14 00:00:00,19,User_072,2,NASA continues to lead in climate research. This data is eye-opening!,positive
+2022-05-16 00:00:00,34,User_139,3,Thank you for making climate science accessible to the public. Great work!,positive
+2022-05-16 00:00:00,24,User_170,8,NASA continues to lead in climate research. This data is eye-opening!,positive
+2022-05-20 00:00:00,20,User_046,3,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2022-05-25 00:00:00,19,User_003,8,What factors are included in this climate analysis?,neutral
+2022-05-27 00:00:00,16,User_018,5,What's the timeframe for these climate predictions?,neutral
+2022-05-28 00:00:00,11,User_197,8,How often is this climate dataset updated?,neutral
+2022-06-03 00:00:00,17,User_191,1,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2022-06-11 00:00:00,5,User_135,6,This climate change stuff is just fear mongering. Not buying it.,negative
+2022-06-14 00:00:00,4,User_057,1,Why is NASA involved in climate activism? Stick to rockets!,negative
+2022-06-19 00:00:00,4,User_124,6,I don't believe this climate data. NASA is pushing an agenda.,negative
+2022-06-21 00:00:00,9,User_048,5,Climate change is a hoax. NASA knows better than this.,negative
+2022-06-21 00:00:00,24,User_149,0,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2022-06-24 00:00:00,26,User_192,4,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2022-06-27 00:00:00,13,User_021,1,Climate change is a hoax. NASA knows better than this.,negative
+2022-07-01 00:00:00,10,User_117,0,This climate change stuff is just fear mongering. Not buying it.,negative
+2022-07-01 00:00:00,5,User_101,5,This climate fear mongering needs to stop. Focus on actual science.,negative
+2022-07-02 00:00:00,24,User_043,6,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2022-07-08 00:00:00,3,User_150,7,"NASA should stick to space, not climate politics.",negative
+2022-07-11 00:00:00,28,User_075,7,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2022-07-12 00:00:00,12,User_193,3,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2022-07-13 00:00:00,10,User_064,1,Climate change is a hoax. NASA knows better than this.,negative
+2022-07-20 00:00:00,21,User_087,5,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2022-07-22 00:00:00,31,User_016,5,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2022-07-30 00:00:00,12,User_112,2,This climate data is manipulated to support political narratives.,negative
+2022-08-02 00:00:00,11,User_118,4,What are the implications of this climate data for coastal cities?,neutral
+2022-08-03 00:00:00,15,User_013,2,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2022-08-03 00:00:00,2,User_113,3,Why is NASA involved in climate activism? Stick to rockets!,negative
+2022-08-06 00:00:00,20,User_144,0,What are the implications of this climate data for coastal cities?,neutral
+2022-08-12 00:00:00,15,User_089,8,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2022-08-12 00:00:00,30,User_185,1,Thank you for making climate science accessible to the public. Great work!,positive
+2022-08-13 00:00:00,5,User_069,1,This climate data is manipulated to support political narratives.,negative
+2022-08-18 00:00:00,17,User_162,7,NASA continues to lead in climate research. This data is eye-opening!,positive
+2022-08-20 00:00:00,15,User_163,0,"NASA should stick to space, not climate politics.",negative
+2022-08-23 00:00:00,34,User_181,0,Thank you for making climate science accessible to the public. Great work!,positive
+2022-08-26 00:00:00,17,User_122,3,How often is this climate dataset updated?,neutral
+2022-08-27 00:00:00,10,User_169,2,Climate has always changed naturally. This is not human-caused.,negative
+2022-08-27 00:00:00,4,User_145,1,Climate has always changed naturally. This is not human-caused.,negative
+2022-08-27 00:00:00,26,User_136,8,This climate data visualization is incredibly helpful for understanding trends.,positive
+2022-08-29 00:00:00,11,User_168,4,I don't believe this climate data. NASA is pushing an agenda.,negative
+2022-08-31 00:00:00,22,User_117,1,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2022-09-01 00:00:00,11,User_039,8,This climate data is manipulated to support political narratives.,negative
+2022-09-02 00:00:00,13,User_115,7,Climate has always changed naturally. This is not human-caused.,negative
+2022-09-05 00:00:00,21,User_017,1,Would be helpful to see uncertainty ranges in this climate projection.,neutral
+2022-09-06 00:00:00,4,User_117,2,Climate has always changed naturally. This is not human-caused.,negative
+2022-09-07 00:00:00,2,User_110,6,I don't believe this climate data. NASA is pushing an agenda.,negative
+2022-09-07 00:00:00,19,User_179,3,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2022-09-09 00:00:00,25,User_144,5,NASA continues to lead in climate research. This data is eye-opening!,positive
+2022-09-15 00:00:00,28,User_063,7,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2022-09-18 00:00:00,34,User_064,3,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2022-09-18 00:00:00,6,User_093,1,"NASA should stick to space, not climate politics.",negative
+2022-09-21 00:00:00,14,User_055,7,What are the implications of this climate data for coastal cities?,neutral
+2022-09-22 00:00:00,9,User_195,1,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2022-09-22 00:00:00,25,User_058,3,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2022-09-25 00:00:00,4,User_091,3,This climate data is manipulated to support political narratives.,negative
+2022-09-27 00:00:00,6,User_118,7,This climate data is manipulated to support political narratives.,negative
+2022-10-01 00:00:00,29,User_092,3,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2022-10-02 00:00:00,12,User_004,1,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2022-10-12 00:00:00,35,User_118,3,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2022-10-21 00:00:00,13,User_089,2,This climate fear mongering needs to stop. Focus on actual science.,negative
+2022-10-22 00:00:00,17,User_014,5,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2022-10-28 00:00:00,10,User_060,4,Interesting climate data. Would like to see more analysis on regional variations.,neutral
+2022-10-29 00:00:00,4,User_070,7,Climate change is a hoax. NASA knows better than this.,negative
+2022-10-31 00:00:00,22,User_144,0,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2022-11-08 00:00:00,17,User_129,6,How does this climate trend compare to historical patterns?,neutral
+2022-11-09 00:00:00,19,User_024,7,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2022-11-11 00:00:00,22,User_143,8,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2022-11-21 00:00:00,12,User_184,3,I don't believe this climate data. NASA is pushing an agenda.,negative
+2022-11-28 00:00:00,30,User_072,7,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2022-12-13 00:00:00,9,User_004,7,Can this climate data be used for local planning decisions?,neutral
+2022-12-15 00:00:00,30,User_012,4,This climate data visualization is incredibly helpful for understanding trends.,positive
+2022-12-19 00:00:00,27,User_187,2,Thank you for making climate science accessible to the public. Great work!,positive
+2022-12-21 00:00:00,10,User_100,2,"NASA should stick to space, not climate politics.",negative
+2022-12-23 00:00:00,15,User_015,2,Why is NASA involved in climate activism? Stick to rockets!,negative
+2022-12-25 00:00:00,8,User_059,6,Why is NASA involved in climate activism? Stick to rockets!,negative
+2022-12-27 00:00:00,29,User_140,5,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2022-12-28 00:00:00,15,User_079,5,How accurate have previous NASA climate models been?,neutral
+2022-12-29 00:00:00,11,User_080,3,Can this climate data be used for local planning decisions?,neutral
+2022-12-31 00:00:00,22,User_045,0,This climate data visualization is incredibly helpful for understanding trends.,positive
+2023-01-07 00:00:00,14,User_094,3,Why is NASA involved in climate activism? Stick to rockets!,negative
+2023-01-08 00:00:00,15,User_144,4,Climate has always changed naturally. This is not human-caused.,negative
+2023-01-09 00:00:00,21,User_186,2,NASA continues to lead in climate research. This data is eye-opening!,positive
+2023-01-09 00:00:00,4,User_136,5,Climate has always changed naturally. This is not human-caused.,negative
+2023-01-11 00:00:00,10,User_045,4,What are the implications of this climate data for coastal cities?,neutral
+2023-01-13 00:00:00,21,User_159,0,Can this climate data be used for local planning decisions?,neutral
+2023-01-17 00:00:00,23,User_046,0,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2023-01-19 00:00:00,16,User_130,8,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2023-01-27 00:00:00,14,User_041,7,What factors are included in this climate analysis?,neutral
+2023-02-01 00:00:00,9,User_013,1,This climate change stuff is just fear mongering. Not buying it.,negative
+2023-02-07 00:00:00,7,User_019,4,Climate has always changed naturally. This is not human-caused.,negative
+2023-02-09 00:00:00,9,User_151,3,How does this climate trend compare to historical patterns?,neutral
+2023-02-09 00:00:00,26,User_183,1,NASA continues to lead in climate research. This data is eye-opening!,positive
+2023-02-13 00:00:00,21,User_030,5,What's the timeframe for these climate predictions?,neutral
+2023-02-18 00:00:00,10,User_019,5,Climate has always changed naturally. This is not human-caused.,negative
+2023-02-18 00:00:00,6,User_165,6,This climate change stuff is just fear mongering. Not buying it.,negative
+2023-02-20 00:00:00,26,User_159,6,Amazing work! This helps us understand climate change better. Keep it up NASA!,positive
+2023-02-28 00:00:00,7,User_008,0,This climate fear mongering needs to stop. Focus on actual science.,negative
+2023-02-28 00:00:00,29,User_144,0,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2023-03-01 00:00:00,3,User_016,1,This climate data is manipulated to support political narratives.,negative
+2023-03-05 00:00:00,28,User_044,2,Thank you for making climate science accessible to the public. Great work!,positive
+2023-03-08 00:00:00,25,User_014,1,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2023-03-12 00:00:00,27,User_128,3,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2023-03-18 00:00:00,8,User_049,1,How does this climate trend compare to historical patterns?,neutral
+2023-03-18 00:00:00,11,User_039,8,What factors are included in this climate analysis?,neutral
+2023-03-20 00:00:00,14,User_182,6,How often is this climate dataset updated?,neutral
+2023-03-23 00:00:00,26,User_180,4,This climate data visualization is incredibly helpful for understanding trends.,positive
+2023-03-28 00:00:00,13,User_061,5,How often is this climate dataset updated?,neutral
+2023-04-09 00:00:00,5,User_013,5,Climate has always changed naturally. This is not human-caused.,negative
+2023-04-12 00:00:00,12,User_150,6,What factors are included in this climate analysis?,neutral
+2023-04-18 00:00:00,35,User_197,2,Thank you for making climate science accessible to the public. Great work!,positive
+2023-04-19 00:00:00,15,User_059,8,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2023-04-23 00:00:00,16,User_026,5,What are the implications of this climate data for coastal cities?,neutral
+2023-04-27 00:00:00,9,User_027,3,How does this climate trend compare to historical patterns?,neutral
+2023-04-27 00:00:00,21,User_047,8,This climate data visualization is incredibly helpful for understanding trends.,positive
+2023-04-28 00:00:00,15,User_083,4,"NASA should stick to space, not climate politics.",negative
+2023-05-01 00:00:00,32,User_028,1,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2023-05-03 00:00:00,24,User_113,4,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2023-05-05 00:00:00,12,User_143,4,What's the timeframe for these climate predictions?,neutral
+2023-05-05 00:00:00,11,User_199,3,"NASA should stick to space, not climate politics.",negative
+2023-05-07 00:00:00,17,User_099,5,Thank you for making climate science accessible to the public. Great work!,positive
+2023-05-20 00:00:00,20,User_125,3,What factors are included in this climate analysis?,neutral
+2023-05-24 00:00:00,10,User_026,6,Climate change is a hoax. NASA knows better than this.,negative
+2023-05-26 00:00:00,14,User_030,8,What's the timeframe for these climate predictions?,neutral
+2023-05-28 00:00:00,9,User_107,7,"NASA should stick to space, not climate politics.",negative
+2023-05-31 00:00:00,32,User_109,8,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2023-06-04 00:00:00,9,User_193,4,Climate has always changed naturally. This is not human-caused.,negative
+2023-06-05 00:00:00,4,User_110,6,Climate has always changed naturally. This is not human-caused.,negative
+2023-06-13 00:00:00,15,User_062,5,Fantastic work on climate modeling. This helps us prepare for the future.,positive
+2023-06-14 00:00:00,3,User_063,3,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2023-06-22 00:00:00,35,User_024,5,Thank you for making climate science accessible to the public. Great work!,positive
+2023-06-22 00:00:00,2,User_084,8,Climate change is a hoax. NASA knows better than this.,negative
+2023-06-23 00:00:00,27,User_128,3,This climate data visualization is incredibly helpful for understanding trends.,positive
+2023-06-23 00:00:00,12,User_038,6,Why is NASA involved in climate activism? Stick to rockets!,negative
+2023-06-30 00:00:00,7,User_167,6,Stop the climate alarmism! Focus on real space missions instead.,negative
+2023-07-04 00:00:00,14,User_109,3,Stop the climate alarmism! Focus on real space missions instead.,negative
+2023-07-07 00:00:00,30,User_071,3,Thank you for making climate science accessible to the public. Great work!,positive
+2023-07-09 00:00:00,10,User_175,2,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2023-07-10 00:00:00,10,User_119,7,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2023-07-13 00:00:00,11,User_039,0,This climate change stuff is just fear mongering. Not buying it.,negative
+2023-07-23 00:00:00,3,User_071,6,I don't believe this climate data. NASA is pushing an agenda.,negative
+2023-07-24 00:00:00,28,User_024,7,This climate data visualization is incredibly helpful for understanding trends.,positive
+2023-07-28 00:00:00,19,User_042,4,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2023-07-30 00:00:00,22,User_014,3,Thank you for making climate science accessible to the public. Great work!,positive
+2023-08-05 00:00:00,20,User_029,5,Would be helpful to see uncertainty ranges in this climate projection.,neutral
+2023-08-06 00:00:00,13,User_103,8,Would be helpful to see uncertainty ranges in this climate projection.,neutral
+2023-08-09 00:00:00,18,User_007,8,How often is this climate dataset updated?,neutral
+2023-08-14 00:00:00,26,User_061,2,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2023-08-17 00:00:00,25,User_116,1,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2023-08-18 00:00:00,10,User_145,0,What's the timeframe for these climate predictions?,neutral
+2023-08-24 00:00:00,18,User_038,5,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2023-08-26 00:00:00,23,User_197,3,This climate data visualization is incredibly helpful for understanding trends.,positive
+2023-08-30 00:00:00,14,User_123,7,What are the implications of this climate data for coastal cities?,neutral
+2023-08-31 00:00:00,12,User_178,5,Interesting climate data. Would like to see more analysis on regional variations.,neutral
+2023-08-31 00:00:00,4,User_031,5,Why is NASA involved in climate activism? Stick to rockets!,negative
+2023-09-01 00:00:00,34,User_074,7,NASA continues to lead in climate research. This data is eye-opening!,positive
+2023-09-02 00:00:00,21,User_020,2,How accurate have previous NASA climate models been?,neutral
+2023-09-02 00:00:00,21,User_185,8,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2023-09-03 00:00:00,8,User_126,1,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2023-09-06 00:00:00,4,User_058,7,Climate has always changed naturally. This is not human-caused.,negative
+2023-09-10 00:00:00,6,User_184,2,Climate has always changed naturally. This is not human-caused.,negative
+2023-09-11 00:00:00,16,User_078,8,This climate data visualization is incredibly helpful for understanding trends.,positive
+2023-09-12 00:00:00,9,User_005,7,This climate fear mongering needs to stop. Focus on actual science.,negative
+2023-09-13 00:00:00,4,User_141,7,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2023-09-14 00:00:00,20,User_158,6,Interesting climate data. Would like to see more analysis on regional variations.,neutral
+2023-09-17 00:00:00,8,User_197,5,What factors are included in this climate analysis?,neutral
+2023-09-18 00:00:00,24,User_195,6,NASA continues to lead in climate research. This data is eye-opening!,positive
+2023-09-19 00:00:00,9,User_165,3,Can this climate data be used for local planning decisions?,neutral
+2023-09-21 00:00:00,14,User_127,2,How accurate have previous NASA climate models been?,neutral
+2023-09-27 00:00:00,12,User_084,6,What factors are included in this climate analysis?,neutral
+2023-09-29 00:00:00,8,User_077,8,What factors are included in this climate analysis?,neutral
+2023-09-30 00:00:00,12,User_135,1,NASA wasting taxpayer money on climate propaganda instead of space exploration.,negative
+2023-09-30 00:00:00,21,User_196,0,Can someone explain how this climate model works? Curious about the methodology.,neutral
+2023-10-02 00:00:00,8,User_048,1,This climate change stuff is just fear mongering. Not buying it.,negative
+2023-10-03 00:00:00,28,User_069,3,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2023-10-05 00:00:00,26,User_108,8,NASA continues to lead in climate research. This data is eye-opening!,positive
+2023-10-06 00:00:00,12,User_135,6,This climate data is manipulated to support political narratives.,negative
+2023-10-07 00:00:00,19,User_056,8,How often is this climate dataset updated?,neutral
+2023-10-08 00:00:00,11,User_063,0,Climate change is a hoax. NASA knows better than this.,negative
+2023-10-11 00:00:00,13,User_107,1,What's the timeframe for these climate predictions?,neutral
+2023-10-12 00:00:00,16,User_070,1,This climate data visualization is incredibly helpful for understanding trends.,positive
+2023-10-19 00:00:00,11,User_102,6,Stop the climate alarmism! Focus on real space missions instead.,negative
+2023-10-20 00:00:00,6,User_161,2,This climate fear mongering needs to stop. Focus on actual science.,negative
+2023-10-23 00:00:00,10,User_008,2,This climate data is manipulated to support political narratives.,negative
+2023-10-25 00:00:00,15,User_175,1,Thank you for making climate science accessible to the public. Great work!,positive
+2023-10-26 00:00:00,15,User_161,5,How often is this climate dataset updated?,neutral
+2023-11-01 00:00:00,24,User_168,1,NASA's climate data is invaluable for policy makers. Thank you for your transparency!,positive
+2023-11-02 00:00:00,15,User_145,1,Stop the climate alarmism! Focus on real space missions instead.,negative
+2023-11-08 00:00:00,21,User_130,4,Love seeing NASA's commitment to climate science. This research is vital!,positive
+2023-11-09 00:00:00,35,User_193,0,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2023-11-13 00:00:00,29,User_023,5,This climate data visualization is incredibly helpful for understanding trends.,positive
+2023-11-14 00:00:00,2,User_056,5,Stop the climate alarmism! Focus on real space missions instead.,negative
+2023-11-17 00:00:00,15,User_140,6,Why is NASA involved in climate activism? Stick to rockets!,negative
+2023-11-18 00:00:00,30,User_095,7,This is exactly the kind of research we need to combat climate change. Excellent job!,positive
+2023-11-18 00:00:00,11,User_070,7,How does this climate trend compare to historical patterns?,neutral
+2023-11-22 00:00:00,6,User_052,7,This climate fear mongering needs to stop. Focus on actual science.,negative
+2023-11-26 00:00:00,30,User_195,2,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2023-11-27 00:00:00,5,User_127,6,This climate fear mongering needs to stop. Focus on actual science.,negative
+2023-11-30 00:00:00,20,User_088,6,Thank you NASA for your incredible work on climate research! This data is crucial for our future.,positive
+2023-12-01 00:00:00,22,User_032,7,Can this climate data be used for local planning decisions?,neutral
+2023-12-10 00:00:00,24,User_019,7,Great visualization of climate trends. This makes the data accessible to everyone.,positive
+2023-12-10 00:00:00,18,User_024,8,What are the implications of this climate data for coastal cities?,neutral
+2023-12-11 00:00:00,32,User_157,4,NASA continues to lead in climate research. This data is eye-opening!,positive
+2023-12-20 00:00:00,3,User_059,0,I don't believe this climate data. NASA is pushing an agenda.,negative
+2023-12-20 00:00:00,5,User_113,7,I don't believe this climate data. NASA is pushing an agenda.,negative
+2023-12-22 00:00:00,15,User_122,4,What factors are included in this climate analysis?,neutral
+2023-12-24 00:00:00,22,User_080,2,This climate data visualization is incredibly helpful for understanding trends.,positive

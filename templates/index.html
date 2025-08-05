@@ -1,0 +1,288 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Climate Change Modeling{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold mb-4">Climate Change Modeling</h1>
+                <p class="lead mb-4">
+                    An end-to-end data science project that combines sentiment analysis of NASA Facebook comments 
+                    with climate change prediction using machine learning algorithms.
+                </p>
+                <div class="d-flex gap-3">
+                    <a href="{{ url_for('sentiment_page') }}" class="btn btn-primary btn-lg">
+                        <i class="fas fa-comments me-2"></i>Analyze Sentiment
+                    </a>
+                    <a href="{{ url_for('climate_page') }}" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-temperature-high me-2"></i>Predict Climate
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="text-center">
+                    <i class="fas fa-globe-americas" style="font-size: 15rem; opacity: 0.3;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 class="display-5 fw-bold mb-3">Project Features</h2>
+                <p class="lead text-muted">Comprehensive analysis and prediction capabilities</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 text-center p-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h5 class="card-title">Sentiment Analysis</h5>
+                    <p class="card-text">
+                        Analyze public sentiment from NASA Facebook comments using 
+                        advanced NLP and machine learning techniques.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 text-center p-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h5 class="card-title">Climate Prediction</h5>
+                    <p class="card-text">
+                        Predict future climate trends including temperature, CO2 levels, 
+                        sea level rise, and extreme weather events.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 text-center p-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h5 class="card-title">Data Analysis</h5>
+                    <p class="card-text">
+                        Comprehensive exploratory data analysis with interactive 
+                        visualizations and statistical insights.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 text-center p-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h5 class="card-title">ML Models</h5>
+                    <p class="card-text">
+                        Custom machine learning models built from scratch using 
+                        Python, NumPy, and advanced algorithms.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Statistics Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 class="display-5 fw-bold mb-3">Project Statistics</h2>
+                <p class="lead text-muted">Real-time data from our models and datasets</p>
+            </div>
+        </div>
+        
+        <div id="error-container"></div>
+        <div id="success-container"></div>
+        
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center p-4">
+                    <div class="card-body">
+                        <i class="fas fa-comments fa-3x text-primary mb-3"></i>
+                        <h3 class="card-title" id="total-comments">Loading...</h3>
+                        <p class="card-text text-muted">NASA Comments Analyzed</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center p-4">
+                    <div class="card-body">
+                        <i class="fas fa-calendar-alt fa-3x text-success mb-3"></i>
+                        <h3 class="card-title" id="data-years">Loading...</h3>
+                        <p class="card-text text-muted">Years of Climate Data</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center p-4">
+                    <div class="card-body">
+                        <i class="fas fa-thermometer-half fa-3x text-warning mb-3"></i>
+                        <h3 class="card-title" id="temp-change">Loading...</h3>
+                        <p class="card-text text-muted">Temperature Change (°C)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center p-4">
+                    <div class="card-body">
+                        <i class="fas fa-smile fa-3x text-info mb-3"></i>
+                        <h3 class="card-title" id="positive-sentiment">Loading...</h3>
+                        <p class="card-text text-muted">Positive Sentiment %</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 class="display-5 fw-bold mb-3">How It Works</h2>
+                <p class="lead text-muted">Step-by-step process of our machine learning pipeline</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 p-4">
+                    <div class="text-center mb-3">
+                        <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <span class="fw-bold fs-4">1</span>
+                        </div>
+                    </div>
+                    <h5 class="card-title text-center">Data Collection</h5>
+                    <p class="card-text">
+                        Collect and preprocess NASA Facebook comments and historical climate data 
+                        from reliable sources spanning multiple decades.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 p-4">
+                    <div class="text-center mb-3">
+                        <div class="bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <span class="fw-bold fs-4">2</span>
+                        </div>
+                    </div>
+                    <h5 class="card-title text-center">Model Training</h5>
+                    <p class="card-text">
+                        Train custom machine learning models including Naive Bayes for sentiment 
+                        analysis and polynomial regression for climate prediction.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 p-4">
+                    <div class="text-center mb-3">
+                        <div class="bg-warning text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <span class="fw-bold fs-4">3</span>
+                        </div>
+                    </div>
+                    <h5 class="card-title text-center">Prediction & Analysis</h5>
+                    <p class="card-text">
+                        Generate predictions and insights through interactive web interface 
+                        with real-time analysis and visualization capabilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5 bg-primary text-white">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="display-5 fw-bold mb-4">Ready to Explore?</h2>
+                <p class="lead mb-4">
+                    Dive into our interactive tools and discover insights about climate change 
+                    and public sentiment through the power of machine learning.
+                </p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                    <a href="{{ url_for('sentiment_page') }}" class="btn btn-light btn-lg">
+                        <i class="fas fa-comments me-2"></i>Try Sentiment Analysis
+                    </a>
+                    <a href="{{ url_for('climate_page') }}" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-temperature-high me-2"></i>Predict Climate
+                    </a>
+                    <a href="{{ url_for('data_page') }}" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-chart-bar me-2"></i>Explore Data
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Load dashboard statistics
+    async function loadDashboardStats() {
+        try {
+            // Load comments data
+            const commentsResponse = await fetch('/api/data/comments');
+            if (commentsResponse.ok) {
+                const commentsData = await commentsResponse.json();
+                document.getElementById('total-comments').textContent = formatNumber(commentsData.total_comments);
+                
+                // Calculate positive sentiment percentage
+                const totalComments = commentsData.total_comments;
+                const positiveCount = commentsData.sentiment_distribution.positive || 0;
+                const positivePercentage = Math.round((positiveCount / totalComments) * 100);
+                document.getElementById('positive-sentiment').textContent = positivePercentage + '%';
+            }
+            
+            // Load climate data
+            const climateResponse = await fetch('/api/data/climate');
+            if (climateResponse.ok) {
+                const climateData = await climateResponse.json();
+                document.getElementById('data-years').textContent = climateData.total_years;
+                
+                // Get temperature change from statistics
+                if (climateData.statistics && climateData.statistics.Temperature_Anomaly) {
+                    const tempStats = climateData.statistics.Temperature_Anomaly;
+                    const tempChange = (tempStats.max - tempStats.min).toFixed(2);
+                    document.getElementById('temp-change').textContent = '+' + tempChange;
+                }
+            }
+            
+        } catch (error) {
+            console.error('Error loading dashboard stats:', error);
+            // Set default values if loading fails
+            document.getElementById('total-comments').textContent = '500+';
+            document.getElementById('data-years').textContent = '50';
+            document.getElementById('temp-change').textContent = '+1.0';
+            document.getElementById('positive-sentiment').textContent = '40%';
+        }
+    }
+    
+    // Load stats when page loads
+    document.addEventListener('DOMContentLoaded', loadDashboardStats);
+</script>
+{% endblock %}
