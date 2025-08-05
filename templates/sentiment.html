@@ -1,0 +1,402 @@
+{% extends "base.html" %}
+
+{% block title %}Sentiment Analysis - Climate Change Modeling{% endblock %}
+
+{% block content %}
+<!-- Header Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-4 fw-bold mb-3">
+                    <i class="fas fa-comments text-primary me-3"></i>
+                    Sentiment Analysis
+                </h1>
+                <p class="lead text-muted">
+                    Analyze the sentiment of climate-related text using our custom-trained 
+                    machine learning model based on NASA Facebook comments.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Analysis Tool Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-microscope me-2"></i>
+                            Text Sentiment Analyzer
+                        </h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <div id="error-container"></div>
+                        <div id="success-container"></div>
+                        
+                        <form id="sentiment-form">
+                            <div class="mb-4">
+                                <label for="text-input" class="form-label fw-bold">
+                                    Enter text to analyze:
+                                </label>
+                                <textarea 
+                                    class="form-control" 
+                                    id="text-input" 
+                                    rows="4" 
+                                    placeholder="Enter your climate-related text here... (e.g., 'NASA's climate research is fantastic and crucial for our future!')"
+                                    required
+                                ></textarea>
+                                <div class="form-text">
+                                    The model works best with climate-related text similar to social media comments.
+                                </div>
+                            </div>
+                            
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button type="button" id="clear-btn" class="btn btn-outline-secondary">
+                                    <i class="fas fa-eraser me-2"></i>Clear
+                                </button>
+                                <button type="submit" class="btn btn-primary" id="analyze-btn">
+                                    <i class="fas fa-search me-2"></i>Analyze Sentiment
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <!-- Loading indicator -->
+                        <div id="loading" class="loading text-center py-4">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-2 text-muted">Analyzing sentiment...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Results Section -->
+<section class="py-5" id="results-section" style="display: none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-chart-pie me-2"></i>
+                            Analysis Results
+                        </h5>
+                    </div>
+                    <div class="card-body p-4">
+                        <!-- Sentiment Result -->
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <div class="text-center">
+                                    <h4 class="mb-3">Predicted Sentiment</h4>
+                                    <div class="sentiment-badge p-3 rounded-circle d-inline-block mb-3" style="width: 120px; height: 120px; display: flex; align-items: center; justify-content: center;">
+                                        <span id="sentiment-result" class="fs-3 fw-bold"></span>
+                                    </div>
+                                    <p class="text-muted" id="sentiment-confidence"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="mb-3">Confidence Scores</h5>
+                                <div id="probability-bars"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Text Features -->
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 class="mb-3">Text Analysis Features</h5>
+                                <div class="row g-3" id="features-container">
+                                    <!-- Features will be populated here -->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Analyzed Text -->
+                        <div class="mt-4">
+                            <h5 class="mb-3">Analyzed Text</h5>
+                            <div class="bg-light p-3 rounded">
+                                <p id="analyzed-text" class="mb-0 font-monospace"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sample Examples Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <h2 class="text-center mb-5">Try These Examples</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 example-card" style="cursor: pointer;">
+                            <div class="card-body">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-smile text-success fa-2x"></i>
+                                </div>
+                                <h6 class="card-title text-center">Positive Example</h6>
+                                <p class="card-text small">
+                                    "Thank you NASA for your incredible work on climate research! 
+                                    This data is crucial for our future."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 example-card" style="cursor: pointer;">
+                            <div class="card-body">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-frown text-danger fa-2x"></i>
+                                </div>
+                                <h6 class="card-title text-center">Negative Example</h6>
+                                <p class="card-text small">
+                                    "This climate change stuff is just fear mongering. 
+                                    NASA is pushing an agenda."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card h-100 example-card" style="cursor: pointer;">
+                            <div class="card-body">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-meh text-secondary fa-2x"></i>
+                                </div>
+                                <h6 class="card-title text-center">Neutral Example</h6>
+                                <p class="card-text small">
+                                    "Interesting climate data. Would like to see more analysis 
+                                    on regional variations."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Model Information Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-info-circle me-2"></i>
+                            About the Model
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6>Model Architecture</h6>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i>Naive Bayes Classifier</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>TF-IDF Vectorization</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Custom Feature Engineering</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Climate-specific Keywords</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Training Data</h6>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-database text-primary me-2"></i>500+ NASA Facebook Comments</li>
+                                    <li><i class="fas fa-calendar text-primary me-2"></i>2020-2023 Time Period</li>
+                                    <li><i class="fas fa-tags text-primary me-2"></i>3 Sentiment Classes</li>
+                                    <li><i class="fas fa-balance-scale text-primary me-2"></i>Balanced Dataset</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Sentiment analysis functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('sentiment-form');
+        const textInput = document.getElementById('text-input');
+        const analyzeBtn = document.getElementById('analyze-btn');
+        const clearBtn = document.getElementById('clear-btn');
+        const resultsSection = document.getElementById('results-section');
+        const loadingDiv = document.getElementById('loading');
+        
+        // Example cards
+        const exampleCards = document.querySelectorAll('.example-card');
+        
+        // Handle form submission
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const text = textInput.value.trim();
+            if (!text) {
+                showError('Please enter some text to analyze.');
+                return;
+            }
+            
+            // Show loading
+            analyzeBtn.disabled = true;
+            showLoading('loading');
+            resultsSection.style.display = 'none';
+            
+            try {
+                const response = await fetch('/api/sentiment/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ text: text })
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    displayResults(data);
+                    resultsSection.style.display = 'block';
+                    // Scroll to results
+                    resultsSection.scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    showError(data.error || 'An error occurred during analysis.');
+                }
+                
+            } catch (error) {
+                console.error('Error:', error);
+                showError('Failed to analyze sentiment. Please try again.');
+            } finally {
+                hideLoading('loading');
+                analyzeBtn.disabled = false;
+            }
+        });
+        
+        // Clear button
+        clearBtn.addEventListener('click', function() {
+            textInput.value = '';
+            resultsSection.style.display = 'none';
+            document.getElementById('error-container').innerHTML = '';
+            document.getElementById('success-container').innerHTML = '';
+        });
+        
+        // Example cards
+        exampleCards.forEach(card => {
+            card.addEventListener('click', function() {
+                const exampleText = card.querySelector('.card-text').textContent.trim();
+                textInput.value = exampleText.replace(/"/g, '');
+                textInput.focus();
+            });
+        });
+        
+        function displayResults(data) {
+            // Display sentiment
+            const sentimentResult = document.getElementById('sentiment-result');
+            const sentimentBadge = document.querySelector('.sentiment-badge');
+            const sentimentConfidence = document.getElementById('sentiment-confidence');
+            
+            sentimentResult.textContent = data.sentiment.toUpperCase();
+            sentimentResult.className = getSentimentClass(data.sentiment);
+            
+            // Set badge background color
+            let bgColor;
+            switch(data.sentiment.toLowerCase()) {
+                case 'positive':
+                    bgColor = '#d4edda';
+                    break;
+                case 'negative':
+                    bgColor = '#f8d7da';
+                    break;
+                case 'neutral':
+                    bgColor = '#e2e3e5';
+                    break;
+                default:
+                    bgColor = '#f8f9fa';
+            }
+            sentimentBadge.style.backgroundColor = bgColor;
+            
+            // Display probability bars
+            const probabilityBars = document.getElementById('probability-bars');
+            probabilityBars.innerHTML = '';
+            
+            Object.entries(data.probabilities).forEach(([sentiment, probability]) => {
+                const percentage = (probability * 100).toFixed(1);
+                const barHtml = `
+                    <div class="mb-2">
+                        <div class="d-flex justify-content-between">
+                            <span class="fw-medium ${getSentimentClass(sentiment)}">${sentiment.charAt(0).toUpperCase() + sentiment.slice(1)}</span>
+                            <span class="text-muted">${percentage}%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar ${getProgressBarClass(sentiment)}" 
+                                 style="width: ${percentage}%"></div>
+                        </div>
+                    </div>
+                `;
+                probabilityBars.innerHTML += barHtml;
+            });
+            
+            // Display features
+            const featuresContainer = document.getElementById('features-container');
+            featuresContainer.innerHTML = '';
+            
+            const featureLabels = {
+                'word_count': 'Word Count',
+                'char_count': 'Character Count',
+                'avg_word_length': 'Avg Word Length',
+                'exclamation_count': 'Exclamations',
+                'question_count': 'Questions',
+                'uppercase_count': 'Uppercase Chars',
+                'positive_keywords': 'Positive Keywords',
+                'negative_keywords': 'Negative Keywords',
+                'neutral_keywords': 'Neutral Keywords'
+            };
+            
+            Object.entries(data.features).forEach(([feature, value]) => {
+                if (featureLabels[feature]) {
+                    const displayValue = typeof value === 'number' ? 
+                        (value < 1 ? value.toFixed(2) : Math.round(value)) : value;
+                    
+                    const featureHtml = `
+                        <div class="col-md-4 col-sm-6">
+                            <div class="bg-light p-2 rounded text-center">
+                                <div class="fw-bold text-primary">${displayValue}</div>
+                                <small class="text-muted">${featureLabels[feature]}</small>
+                            </div>
+                        </div>
+                    `;
+                    featuresContainer.innerHTML += featureHtml;
+                }
+            });
+            
+            // Display analyzed text
+            document.getElementById('analyzed-text').textContent = data.text;
+        }
+        
+        function getProgressBarClass(sentiment) {
+            switch(sentiment.toLowerCase()) {
+                case 'positive': return 'bg-success';
+                case 'negative': return 'bg-danger';
+                case 'neutral': return 'bg-secondary';
+                default: return 'bg-primary';
+            }
+        }
+    });
+</script>
+{% endblock %}
